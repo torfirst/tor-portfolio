@@ -2,12 +2,10 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This project served two purposes: an exercise as I practice my HTML/CSS skills, and a portfolio website that I can use to display my future projects.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+Since I had the freedom to create a website tailored to me, I had to learn a lot to execute the design choices I made. I had to solve an issue where my website was overflowing off the screen to the right, and figure out how to create a collapsible section for my "About Me." I also had to learn how to make the collapsible section open or closed by default because I wasn't sure what I liked visually. 
+
 
 ## Table of Contents (Optional)
 
@@ -23,6 +21,9 @@ If your README is long, add a table of contents to make it easy for users to fin
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 ## Usage
+
+This is the link to the website: https://torfirst.github.io/tor-portfolio/ 
+
 
 Provide instructions and examples for use. Include screenshots as needed.
 

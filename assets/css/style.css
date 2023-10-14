@@ -28,14 +28,16 @@ a:visited {
   color: aqua;
 }
 
-a:hover {
-  text-decoration: line-through;
-}
+@media screen and (min-width: 1024px) {
+  a:hover {
+    text-decoration: line-through;
+  }
 
-a img:hover {
-  opacity: 0.9;
-  filter: saturate(2);
-  box-shadow: inset 0px 0px 5px white, 0 0 20px black;
+  a img:hover {
+    opacity: 0.9;
+    filter: saturate(2);
+    box-shadow: inset 0px 0px 5px white, 0 0 20px black;
+  }
 }
 
 h1,
@@ -178,7 +180,7 @@ li {
 }
 
 #section-2 h2 {
-  padding-left: 2rem;
+  padding-left: 6.25rem;
 }
 
 .work-container {
@@ -253,7 +255,7 @@ figure {
     content: '\002B';
     color: #e9b259;
   }
-  
+
   /* Hide profile image on mobile */
   .mobile-hide {
     display: none !important;
@@ -263,7 +265,6 @@ figure {
 
   #section-2 h2 {
     padding-bottom: 1rem;
-    padding-left: 2rem;
   }
 
   .work-container-mobile {
@@ -276,6 +277,6 @@ figure {
   .mobile-images {
     width: 100%;
     border-radius: 20px;
-    border: 5px solid var(--bgcolor);
+    /* border: 5px solid var(--bgcolor); */
   }
 }
