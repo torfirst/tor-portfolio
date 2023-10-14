@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tor first</title>
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1 class="page-title">
+      tor first
+    </h1>
+    <ul id="contact-links">
+      <li class="contact-links"><a href="https://www.linkedin.com/in/torfirst/">linkedin</a></li>
+      <li class="contact-links"><a href="https://github.com/torfirst">github</a></li>
+      <li class="contact-links"><a href="mailto:karysmatique@icloud.com?subject=just%20saying%20hi">email</a></li>
+      <li class="contact-links"><a href="https://youtu.be/dQw4w9WgXcQ?si=u-1pIg7y7rezDVaB">instagram</a></li>
+    </ul>
+  </header>
+
+  <main class="container">
+
+    <!-- ABOUT ME -->
+    <section id="section-1">
+      <button class="collapsible">
+        <h2>about me</h2>
+      </button>
+      <div class="about-me content">
+        <img class="profile mobile-hide" src="./assets/images/profile image.jpeg" alt="profile picture">
+        <div class="bio">
+          <ul class="profile-headings">current location:
+            <li>nashville, tennessee</li>
+          </ul>
+          <ul class="profile-headings"> education:
+            <li>university of california, irvine (international studies with focus in conflict resolution)</li>
+          </ul>
+          <ul class="profile-headings">occupation:
+            <li>retail marketing and performance specialist at mitsubishi north america's corporate headquarters</li>
+          </ul>
+          <ul class="profile-headings">bio:
+            <li>born and raised in los angeles county. really invested in sustainability despite having an interest in
+              cars and motorcycles.
+              currently delving into automotive marketing. enjoys problem-solving and has a curiosity about becoming a
+              developer.
+              background in music, retail, and marketing + a hunger for always learning, committed to excelling in any
+              profession i step into.
+              blah blah write a better bio later
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="section-2">
+      <h2>my work</h2>
+      <div class="work-container work-container-mobile">
+        <figure>
+          <a class="mobile-hide" href="https://torfirst.github.io/prework-study-guide/">
+            <img class="rounded-edges" src="./assets/images/pre-work study guide.png" alt="prework study guide">
+          </a>
+        </figure>
+
+        <figure>
+          <a class="mobile-hide" href="#">
+            <img class="rounded-edges" src="./assets/images/placeholder image.png" alt="project 2">
+          </a>
+        </figure>
+        <figure>
+          <a class="mobile-hide" href="#">
+            <img class="rounded-edges" src="./assets/images/placeholder image.png" alt="project 3">
+          </a>
+        </figure>
+      </div>
+      
+      <div class="work-container-mobile">
+        <figure>
+          <a class="desktop-hide" href="https://torfirst.github.io/prework-study-guide/">
+            <img class="mobile-images" src="./assets/images/pre-work study guide mobile.png" alt="prework study guide">
+          </a>
+        </figure>
+      <figure>
+        <a class="desktop-hide" href="#">
+          <img class="mobile-images" src="./assets/images/placeholder proj mobile.png" alt="project 2">
+        </a>
+      </figure>
+      <figure>
+        <a class="desktop-hide" href="#">
+          <img class="mobile-images" src="./assets/images/placeholder proj mobile.png" alt="project 3">
+        </a>
+      </figure>
+    </div>
+    </section>
+
+  </main>
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+  </script>
+
+  <!-- <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        var mHeight = window.getComputedStyle(content).maxHeight;
+        if (mHeight !== "0px") {
+          content.style.maxHeight = "0px";
+        } else {
+          content.style.maxHeight = "100%";
+        }
+      });
+    }
+  </script> -->
+
+</body>
+
+</html>
