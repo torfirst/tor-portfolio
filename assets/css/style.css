@@ -182,8 +182,8 @@ li {
 }
 
 .work-container {
-  padding: 1.5rem;
-  gap: 1rem;
+  padding: 1.5rem 3rem;
+  gap: 3rem;
   display: flex;
   text-align: center;
   justify-content: space-evenly;
@@ -267,13 +267,15 @@ figure {
   }
 
   .work-container-mobile {
-    padding: 0;
-    gap: 0;
+    padding: 1rem;
+    gap: 1rem;
     display: flex;
     flex-wrap: wrap;
   }
 
   .mobile-images {
     width: 100%;
+    border-radius: 20px;
+    border: 5px solid var(--bgcolor);
   }
 }
