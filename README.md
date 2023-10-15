@@ -25,8 +25,9 @@ Referenced [this](https://www.w3schools.com/css/css_link.asp) to figure out how 
 
 Used these two links to figure out how to make the “About Me” section collapsible:
 
-[W3 Collapsible How To ](https://www.w3schools.com/howto/howto_js_collapsible.asp)
-[Stack Overflow: Collapsible Open By Default](https://stackoverflow.com/questions/52183364/javascript-collapsible-panel-open-by-default)
+- [W3 Collapsible How To ](https://www.w3schools.com/howto/howto_js_collapsible.asp)
+
+- [Stack Overflow: Collapsible Open By Default](https://stackoverflow.com/questions/52183364/javascript-collapsible-panel-open-by-default)
 
 I also referenced [this MDN article](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox) for general flexbox questions.
 
