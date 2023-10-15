@@ -2,46 +2,33 @@
 
 ## Description
 
-This project served two purposes: an exercise as I practice my HTML/CSS skills, and a portfolio website that I can use to display my future projects.
+This project served two purposes: an exercise as I practice my HTML/CSS skills, which would result in a portfolio website that I can use to display my future projects.
 
-Since I had the freedom to create a website tailored to me, I had to learn a lot to execute the design choices I made. I had to solve an issue where my website was overflowing off the screen to the right, and figure out how to create a collapsible section for my "About Me." I also had to learn how to make the collapsible section open or closed by default because I wasn't sure what I liked visually. 
-
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+Since I had the freedom to create a website tailored to me, I had to learn a lot to execute the design choices I made. Although one of the parameters for this challenge was to include a navigation that scrolls/links to the corresponding section, I opted to make the "About Me" section collapsible to make the portfolio section the main focal point, eliminating the need to scroll down. For this endeavor, I  had to learn how to make the collapsible section open or closed by default because I wasn't sure what I liked visually. I ultimately used the navigation to display my contact links, as I felt like it was a better use of space.
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+There is no installation required for the project, although having a browser installed is required to view the website. The link to the website can be accessed at https://torfirst.github.io/tor-portfolio/.
 
 ## Usage
 
-This is the link to the website: https://torfirst.github.io/tor-portfolio/ 
+Access the website [here](https://torfirst.github.io/tor-portfolio/). To view the "About Me" section, click on the words, "About Me." To collapse it, simply click again on the words "About Me." Examples below:
 
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
+![screenshot of the website with the "About Me" section collapsed](./assets/images/Collapsed.png) 
+![screenshot of the website with the "About Me" section open](./assets/images/Open.png)
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+Used the reset.css file provided during UCI Bootcamp in-class activities. One of the BCS tutors, David Elutilo, guided me on resolving an issue where the page was overflowing to the right instead of fitting to the browser.
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+Referenced [this](https://www.w3schools.com/css/css_link.asp) to figure out how to change the link color for visited and unvisited link.
 
-If you followed tutorials, include links to those here as well.
+Used these two links to figure out how to make the “About Me” section collapsible:
+[W3 Collapsible How To ](https://www.w3schools.com/howto/howto_js_collapsible.asp)
+[Stack Overflow: Collapsible Open By Default](https://stackoverflow.com/questions/52183364/javascript-collapsible-panel-open-by-default)
 
-Used reset.css file provided during UCI Bootcamp in-class activities. Referenced W3 Schools for CSS to change link color for visited and unvisited links.
-
+I also referenced [this MDN article](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox) for general flexbox questions.
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+Refer to license in repo. However, please **do not** use the profile image for any purposes, including personal and commercial use. Please allow this image of my awkward self to only exist in this one place online. Thank you!
