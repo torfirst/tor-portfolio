@@ -103,6 +103,8 @@ header {
   position: relative;
   padding-top: 1rem;
   padding-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 #section-1 h2 {
@@ -126,7 +128,6 @@ header {
   content: '\002B';
   color: var(--heading);
   font-weight: bold;
-  float: right;
   margin-left: 5px;
 }
 
@@ -149,8 +150,6 @@ header {
   text-align: left;
   font-family: monospace;
   display: flex;
-  align-items: center;
-  max-height: 100%;
   gap: 1.5rem;
 }
 
